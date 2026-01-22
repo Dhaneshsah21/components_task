@@ -6,6 +6,7 @@ import './App.css'
 import ProfileCardFn from './components/ProfileCardFn'
 import RenderingPlayground from './components/RenderingPlayground'
 import UserStatus from './components/UserStatus'
+import HOCLab from './components/hoc/HOCLab'
 
 // Page Components
 const Home = ({ user, toggleUser }) => (
@@ -30,6 +31,10 @@ const Home = ({ user, toggleUser }) => (
     <section className="section">
       <h2>3. Rendering Playground</h2>
       <RenderingPlayground />
+    </section>
+
+    <section className="section">
+      <HOCLab />
     </section>
   </div>
 )
